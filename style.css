@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 60px;
+  
+}
+.nav-item{
+    padding: 10px 15px;
+
+}
+.navbar{
+    box-shadow: 5px 5px 10px lightgray;
+}
+.nav-item a{
+    color: rgb(109, 105, 105);
+    font-weight: bold;
+    font-size: 18px;
+}
+.container {
+    margin-bottom: 50px;
+
+}
+.price {
+    color: #2c2b2b;
+    /* align-items: center; */
+
+}
+.banner-images{
+    width: 100%;
+    height: 100%;
+}
+.carousel{
+    background-color: rgb(146, 164, 165);
+    padding: 20px 15px;
+}
+/* .carousel{
+    background-image: url(./bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+
+.carousel-item {
+    padding: 20px 10px;
+}
+
+.btn-black {
+    padding: 9px 25px;
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom, #863957 0%, #FF136F 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* 
+.categories1,
+.categories2,
+.categories3 {
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.categories1 {
+    background-image: linear-gradient(to right, rgb(235, 129, 30) 0%, orange 100%);
+}
+
+.categories2 {
+    background-image: linear-gradient(to right, #ec1379 0%,
+            #c01b6871 100%);
+}
+
+.categories3 {
+    background-image: linear-gradient(to right, rgb(18, 64, 133) 0%,
+            rgba(77, 153, 224, 0.822) 100%);
+} */
+
+.categories h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.categories img {
+    width: 100px;
+}
+h3{
+    font-size: 40px;
+    margin: 30px;
+}
+h4{
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.p{
+    font-size: 8px;
+    align-items: center;
+}
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    /* margin: 15px 15px;
+    padding: 40px 15px; */
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px 20px 30px;
+}
+.card img{
+    height: 200px;
+    width: 250px;
+    padding: 20px 10px 10px 20px;
+}
+.card-body{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 10px 20px;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+#subscribe {
+    height: 300px;
+}
+
+#subscribe h6 {
+    color: gray;
+}
+
+footer {
+    text-align: center;
+}
